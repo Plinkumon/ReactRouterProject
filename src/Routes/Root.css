@@ -1,0 +1,13 @@
+.background-container {
+  background-image: url('/biblepic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+h1{
+  color: rgb(44, 44, 46);
+align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
