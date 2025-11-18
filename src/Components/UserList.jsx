@@ -10,7 +10,7 @@
           <img 
   style={{ width: '200px', display: 'block'}}
   src={user.image}
-  alt=""
+  alt={user.name}
 />
           <h3>{user.name}</h3>
           <p>Email: {user.email}</p>

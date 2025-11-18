@@ -1,17 +1,18 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import App from "./App.jsx";
+
+
 import Root from "./Routes/Root"
 import ErrorPage from "./error-page";
 import About from "./Components/About.jsx";
 import Users from "./Components/Users.jsx";
 import IndUser from "./Components/IndUser.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root/>,
